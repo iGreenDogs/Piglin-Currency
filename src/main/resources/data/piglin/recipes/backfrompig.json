@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "piglin:pig_coin"
+        }
+    ],
+    "result": {
+        "item": "piglin:compressed_coin",
+        "count": 10
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "piglin",
+  "version": "${version}",
+
+  "name": "Piglin Currency",
+  "description": "Adds currency to the game (designed for OriginShift SMP)",
+  "authors": [
+    "BobWazHeer"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/piglin/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.piglin.PiglinCurrency"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

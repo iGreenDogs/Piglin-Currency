@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "piglin:compressed_coin"
+        },
+        {
+            "item": "piglin:compressed_coin"
+        },
+        {
+            "item": "piglin:compressed_coin"
+        },
+        {
+            "item": "piglin:compressed_coin"
+        },
+        {
+            "item": "piglin:compressed_coin"
+        },
+        {
+            "item": "piglin:netherite_coin"
+        },
+        {
+            "item": "piglin:netherite_coin"
+        },
+        {
+            "item": "piglin:netherite_coin"
+        },
+        {
+            "item": "piglin:netherite_coin"
+        }
+    ],
+    "result": {
+        "item": "piglin:pig_coin",
+        "count": 1
+    }
+}

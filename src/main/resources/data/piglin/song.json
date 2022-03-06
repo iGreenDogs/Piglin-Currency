@@ -1,0 +1,8 @@
+{
+    "song": {
+      "subtitle": "subtitles.piglin.song",
+      "sounds": [
+        "piglin:song"
+      ]
+    }
+  }

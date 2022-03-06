@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        },
+        {
+            "item": "piglin:gold_coin"
+        }
+    ],
+    "result": {
+        "item": "piglin:compressed_coin",
+        "count": 1
+    }
+}
