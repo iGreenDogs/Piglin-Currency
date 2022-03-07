@@ -14,6 +14,9 @@ public class PiglinCurrency implements ModInitializer {
     public static final Identifier MY_SOUND_ID = new Identifier("piglin:song");
     public static SoundEvent RICK = new SoundEvent(MY_SOUND_ID);
 
+    public static final Identifier MY_SOUND_ID2 = new Identifier("tutorial:my_sound");
+    public static SoundEvent MY_SOUND_EVENT = new SoundEvent(MY_SOUND_ID);
+
     public static final Item GOLD_COIN = new Coin(new Item.Settings().group(ItemGroup.MISC));
     public static final Item NETHERITE_COIN = new Coin(new Item.Settings().group(ItemGroup.MISC));
     public static final Item COMPRESSED_COIN = new Big(new Item.Settings().group(ItemGroup.MISC));
@@ -22,6 +25,7 @@ public class PiglinCurrency implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        Registry.register(Registry.SOUND_EVENT, PiglinCurrency.MY_SOUND_ID2, MY_SOUND_EVENT);
         Registry.register(Registry.SOUND_EVENT, MY_SOUND_ID, RICK);
         Registry.register(Registry.ITEM, new Identifier("piglin", "gold_coin"), GOLD_COIN);
         Registry.register(Registry.ITEM, new Identifier("piglin", "netherite_coin"), NETHERITE_COIN);

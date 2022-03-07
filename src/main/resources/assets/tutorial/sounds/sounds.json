@@ -1,0 +1,8 @@
+{
+    "my_sound": {
+      "subtitle": "subtitles.tutorial.my_sound",
+      "sounds": [
+        "tutorial:my_sound"
+      ]
+    }
+  }
