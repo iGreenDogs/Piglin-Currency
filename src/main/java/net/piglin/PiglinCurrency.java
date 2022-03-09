@@ -12,10 +12,10 @@ import net.minecraft.util.registry.Registry;
 public class PiglinCurrency implements ModInitializer {
 
     public static final Identifier MY_SOUND_ID = new Identifier("piglin:song");
-    public static SoundEvent RICK = new SoundEvent(MY_SOUND_ID);
+    public static final SoundEvent RICK = new SoundEvent(MY_SOUND_ID);
 
     public static final Identifier MY_SOUND_ID2 = new Identifier("tutorial:my_sound");
-    public static SoundEvent MY_SOUND_EVENT = new SoundEvent(MY_SOUND_ID);
+    public static final SoundEvent MY_SOUND_EVENT = new SoundEvent(MY_SOUND_ID);
 
     public static final Item GOLD_COIN = new Coin(new Item.Settings().group(ItemGroup.MISC));
     public static final Item NETHERITE_COIN = new Coin(new Item.Settings().group(ItemGroup.MISC));
