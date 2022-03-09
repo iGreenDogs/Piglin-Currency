@@ -1,12 +1,8 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "piglin:pig_coin"
-        }
-    ],
-    "result": {
-        "item": "piglin:netherite_coin",
-        "count": 10
-    }
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "piglin:pig_coin"
+    },
+    "result": "piglin:netherite_coin",
+    "count": 10
 }
