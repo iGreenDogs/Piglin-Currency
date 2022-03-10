@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "net.piglin.mixin",
+    "compatibilityLevel": "JAVA_16",
+    "mixins": [
+        "PiglinTrades"
+    ],
+    "client": [ 
+    ],
+    "server": [],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }

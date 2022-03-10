@@ -13,7 +13,7 @@ public class Coin extends Item{
 
     public Coin(Settings settings) {
         super(settings);
-        //TODO Auto-generated constructor stub
+
     }
     
     @Override

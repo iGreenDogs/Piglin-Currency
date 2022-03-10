@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "piglin.mixins.json"
   ],
 
   "depends": {
