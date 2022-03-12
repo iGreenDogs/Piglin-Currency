@@ -5,8 +5,7 @@
     "compatibilityLevel": "JAVA_16",
     "mixins": [
         "PiglinTrades",
-        "PiglinGold",
-        "PiglinFind"
+        "PiglinGold"
     ],
     "client": [ 
     ],

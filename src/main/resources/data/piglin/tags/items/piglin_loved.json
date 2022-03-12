@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "piglin:gold_coin",
+    "piglin:netherite_coin",
+    "piglin:compressed_coin",
+    "piglin:pig_coin"
+  ]
+}
